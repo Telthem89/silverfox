@@ -529,16 +529,17 @@ window.smartsupp||(function(d) {
                             <h2>Request a Quote</h2>
                         </div>
                         <div class="repair-service-form">
-                            <form action="#">
+                            <form target="_blank" action="https://formsubmit.co/silverfoxsecservices@gmail.com" method="POST">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <input type="text" placeholder="Name*">
+                                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                                     </div>
                                     <div class="col-lg-12">
                                         <input type="text" placeholder="Subject*">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject*" required>
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea name="message" placeholder="Your Massege*"></textarea>
+                                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
                                     </div>
                                     <div class="col-lg-12">
                                         <input type="submit" value="Submit Inquiry">
@@ -564,9 +565,9 @@ window.smartsupp||(function(d) {
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12">
-                    <form action="#">
+                    <form target="_blank" action="https://formsubmit.co/silverfoxsecservices@gmail.com" method="POST">
                         <div class="input-box">
-                            <input type="email" placeholder="Enter Your Email* ">
+                            <input type="email" name="email" class="form-control" placeholder="Enter Your Email*" required>
                             <button type="submit telthemweb">Subscribe</button>
                         </div>
                     </form>
